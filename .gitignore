@@ -1,0 +1,7 @@
+.idea/
+vendor/
+.env
+/public/.htaccess
+/storage
+storage/*.key
+
