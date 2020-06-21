@@ -17,5 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::group([ 'prefix'=>'property', 'as'=>'account' ], function() {
     Route::get('summary', 'Analytics\PropertyAnalyticsController@summary');
     Route::post('add', 'Analytics\PropertyAnalyticsController@store');
+    Route::post('update', 'Analytics\PropertyAnalyticsController@update');
 });
 
